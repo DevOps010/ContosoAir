@@ -27,10 +27,10 @@ steps:
          reportDirectory: '$(System.DefaultWorkingDirectory)/coverage'
 
   - task: ArchiveFiles@2
-    displayName: 'Archive sources'
-    inputs:
-      rootFolderOrFile: '$(Build.SourcesDirectory)'
-      includeRootFolder: false
+       displayName: 'Archive sources'
+       inputs:
+         rootFolderOrFile: '$(Build.SourcesDirectory)'
+         includeRootFolder: false
 
   - task: CopyFiles@2
     displayName: 'Copy ARM templates'
@@ -40,4 +40,4 @@ steps:
       TargetFolder: '$(build.artifactstagingdirectory)/Templates'
 
   - task: PublishBuildArtifacts@1
-    displayName: 'Publish Artifact: drop'
+     displayName: 'Publish Artifact: drop'
