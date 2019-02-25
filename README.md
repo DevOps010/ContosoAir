@@ -1,3 +1,4 @@
+[![Build Status](https://dev.azure.com/yassir17tanger/devops/_apis/build/status/DevOps010.ContosoAir?branchName=master)](https://dev.azure.com/yassir17tanger/devops/_build/latest?definitionId=1&branchName=master)
 
 
 
